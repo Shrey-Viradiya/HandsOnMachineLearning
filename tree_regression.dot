@@ -1,0 +1,25 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="X2 <= 0.131\nmse = 0.25\nsamples = 100\nvalue = 0.5", fillcolor="#f2c09c"] ;
+1 [label="X1 <= -0.527\nmse = 0.113\nsamples = 46\nvalue = 0.87", fillcolor="#e89153"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="mse = 0.0\nsamples = 3\nvalue = 0.0", fillcolor="#ffffff"] ;
+1 -> 2 ;
+3 [label="X2 <= -0.067\nmse = 0.065\nsamples = 43\nvalue = 0.93", fillcolor="#e78a47"] ;
+1 -> 3 ;
+4 [label="mse = 0.0\nsamples = 29\nvalue = 1.0", fillcolor="#e58139"] ;
+3 -> 4 ;
+5 [label="mse = 0.168\nsamples = 14\nvalue = 0.786", fillcolor="#eb9c63"] ;
+3 -> 5 ;
+6 [label="X1 <= 1.727\nmse = 0.151\nsamples = 54\nvalue = 0.185", fillcolor="#fae8da"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label="X2 <= 0.528\nmse = 0.092\nsamples = 49\nvalue = 0.102", fillcolor="#fcf2eb"] ;
+6 -> 7 ;
+8 [label="mse = 0.194\nsamples = 19\nvalue = 0.263", fillcolor="#f8decb"] ;
+7 -> 8 ;
+9 [label="mse = 0.0\nsamples = 30\nvalue = 0.0", fillcolor="#ffffff"] ;
+7 -> 9 ;
+10 [label="mse = 0.0\nsamples = 5\nvalue = 1.0", fillcolor="#e58139"] ;
+6 -> 10 ;
+}
