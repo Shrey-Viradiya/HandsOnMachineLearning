@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 venv
 *.deb*
+my_tfhub_cache
